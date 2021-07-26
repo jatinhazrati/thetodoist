@@ -1,0 +1,21 @@
+import { FaMoon } from "react-icons/fa";
+
+export const Header = () => {
+  return (
+    <header className="header" data-testid="header">
+      <nav>
+        <div>
+          <img src="/images/logo.png" alt="Todoist" />
+        </div>
+        <div className="settings">
+          <ul>
+            <li>+</li>
+            <li>
+              <FaMoon />
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  );
+};

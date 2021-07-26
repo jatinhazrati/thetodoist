@@ -1,11 +1,12 @@
-function App() {
+import React from "react";
+import { Content } from "./components/layout/Content";
+import { Header } from "./components/layout/Header";
+
+export const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello World</h1>
-      </header>
+      <Header />
+      <Content />
     </div>
   );
-}
-
-export default App;
+};
